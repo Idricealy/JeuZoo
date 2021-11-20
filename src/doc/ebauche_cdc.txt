@@ -1,0 +1,29 @@
+Idricealy MOURTADHOI
+Youssouf ALI AHMED
+
+
+
+Jeu du Zoo :
+Objectif : 
+•	Le joueur va pouvoir jouer au Jeu du zoo
+•	Jeu qui consiste à simuler un zoo avec des animaux 
+•	Joueur pourra nourrir les animaux 
+•	Animaux vont pouvoir viellier/mourir/manger
+•	Des visiteurs qui peuvent entrer dans le zoo
+•	Système de temps qui va fonctionner par étape
+o	A chaque étape le joueur va pouvoir nourrir les animaux 
+o	Il pourra faire rentrer des visiteurs.
+o	Les animaux peuvent mourir s’ils n’ont pas été nourri, ou si ils vieillissent
+o	A chaque étape on pourra avoir l’état actuel de notre zoo.
+o	 A chaque étape on affiche le nombre de visiteurs.
+•	Les animaux sont enfermés dans des cages. Chaque cage contient 1 animal.
+
+Diagramme de classe candidates :
+•	Zoo
+•	Lion, Singe, Elephant, Zebre
+•	Animal
+•	Cage
+•	Visiteur
+•	Jeu 
+•	Joueur
+

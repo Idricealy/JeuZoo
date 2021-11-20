@@ -1,4 +1,5 @@
 @startuml
+<<<<<<< HEAD
 class Zoo {
 -String Nom
 -<ArrayList> Animal lesAnimaux
@@ -51,3 +52,7 @@ Joueur -- Visiteur
 joueur "1..1" -- "0..*" Visiteur
 
 @enduml
+=======
+class Zoo
+@endmul
+>>>>>>> branch 'master' of https://github.com/Idricealy/JeuZoo.git

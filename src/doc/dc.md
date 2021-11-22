@@ -1,28 +1,30 @@
 @startuml
 
 class Zoo {
--String Nom
+-Nom : String 
 -<ArrayList> Animal lesAnimaux
 -<ArrayList> Cage lesCages
 
 }
 abstract class Animal{
--String Nom
--int Age
--double Poids
--{static} int nbr_Animal
+-Nom : String 
+-Age : int 
+-Poids : double
+-{static} nbr_Animal : int
 +manger()
 +viellir()
 }
 Class Joueur{    
--String Nom
-nourrir()
-rentrer()
+-Nom : String 
+-Age : int 
+-sexe : String
++nourrir()
++rentrer()
 }
 class Jeu{
 }
 class Cage{
--{static} int nbr_Cage
+-{static} nbr_Cage : int 
 }
 class Visiteur{
 -String Nom
@@ -47,10 +49,14 @@ Animal <|-- Zebre
 Zoo o-- Animal
 Joueur -- Jeu
 Zoo o-- Cage
-Joueur -- Animal
-Joueur -- Visiteur
-joueur "1..1" -- "0..*" Visiteur
 
+<<<<<<< HEAD
 
+=======
+Joueur "1..1" -- "0..*" Visiteur
+Joueur "1..1" -- "0..*" Animal
+@enduml
+=======
+>>>>>>> branch 'master' of https://github.com/Idricealy/JeuZoo.git
 class Zoo
 @endmul

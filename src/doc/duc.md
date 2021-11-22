@@ -1,5 +1,6 @@
 @startuml
 actor Joueur as j
+
 left to right direction
 
 package JeuZoo{

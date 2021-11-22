@@ -50,13 +50,9 @@ Zoo o-- Animal
 Joueur -- Jeu
 Zoo o-- Cage
 
-<<<<<<< HEAD
-
-=======
 Joueur "1..1" -- "0..*" Visiteur
 Joueur "1..1" -- "0..*" Animal
 @enduml
-=======
->>>>>>> branch 'master' of https://github.com/Idricealy/JeuZoo.git
+
 class Zoo
 @endmul

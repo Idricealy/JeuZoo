@@ -15,12 +15,12 @@ o	A chaque étape le joueur va pouvoir nourrir les animaux
 o	Il pourra faire rentrer des visiteurs.
 o	Les animaux peuvent mourir s’ils n’ont pas été nourri, ou si ils vieillissent
 o	A chaque étape on pourra avoir l’état actuel de notre zoo.
-o	 A chaque étape on affiche le nombre de visiteurs.
+o	A chaque étape on affiche le nombre de visiteurs.
 •	Les animaux sont enfermés dans des cages. Chaque cage contient 1 animal.
 
 Diagramme de classe candidates :
 •	Zoo
-•	Lion, Singe, Elephant, Zebre
+•	Lion, Singe, Tigre, Zebre
 •	Animal
 •	Cage
 •	Visiteur

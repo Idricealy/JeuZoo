@@ -1,5 +1,5 @@
 @startuml
-
+left 
 class Zoo {
 -Nom : String 
 -<ArrayList> Animal lesAnimaux

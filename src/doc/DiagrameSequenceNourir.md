@@ -10,7 +10,7 @@ GestionZooNourir ->  GestionZooNourir: EnregistreAnimalNourrit
 
 Joueur -> GestionZooNourir: demandeListeAnimalActuel
 
-GestionZooNourir -->  Joueur: afficheListeAnimal
+GestionZooNourir -->  Joueur: afficheListe
 
 	
 	

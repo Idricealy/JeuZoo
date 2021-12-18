@@ -11,16 +11,7 @@
 	IUJeuZoo -> Zoo : << create >>
 	CTRLJeuZoo -> Zoo : nourrir()
 	
-	activate Zoo
-	deactivate Zoo
-	
-	create Animal
-	CTRLJeuZoo -> Animal : << create >>
-	activate Animal
-	CTRLJeuZoo --> Animal : getCaracteristique()
-	Animal --> CTRLJeuZoo : caracteristique
-	
-	deactivate CTRLJeuZoo
+
 	
 	
 	Animal -> Animal : manger()

@@ -4,6 +4,7 @@ class Zoo{
 - nom : String
 + afficher()
 + nourrir() : void
++ entrer()
 }
 
 class Cage{

@@ -1,6 +1,6 @@
 @startuml
 
 JeuZoo --> Joueur : ProposeNourrirAnimaux
-Joueur --> JeuZoo : ChoisiNourrirAnimaux
+Joueur -> JeuZoo : ChoisiNourrirAnimaux
 JeuZoo --> Animaux : NourritAnimaux
 @enduml

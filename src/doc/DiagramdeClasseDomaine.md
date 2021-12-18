@@ -26,7 +26,7 @@ class Jeu{
 }
 class Cage{
 -{static} nbr_Cage : int 
-}
+} 
 class Visiteur{
 -String Nom
 }
@@ -52,7 +52,7 @@ Zoo "1..1" o-- "1..n" Animal
 Animal "1..1" o-- "1..1" Cage
 
 Joueur "1..1" -- "0..*" Visiteur
-Joueur "1..1" -- "1..*" Animal
+Joueur "1..1" -- "1..*" Zoo
 
 Animal "1..*" -- "1..1" Jeu
 

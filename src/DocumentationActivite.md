@@ -6,7 +6,6 @@ start
 if (il faut au moin un animal au jeu) then (yes)
 
 :ProposeNourirAnimal;
-else
 :NourirAnimal;
 
 

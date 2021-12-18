@@ -42,6 +42,6 @@ CTRLJeuZoo " 1 " -up-> "-lesAnimaux"Animal
 
 CTRLJeuZoo " 1 " -up-> "-lesVisiteurs" Visiteur
 
-IUJeuZoo " 1 " o-- "- zoo "Zoo
+CTRLJeuZoo " 1 " o-- "- zoo "Zoo
 
 @enduml

@@ -1,16 +1,15 @@
 @startuml
 
-Joueur -> GestionZooNourir: demandeAficherListeAnimal
-GestionZooNourir --> Joueur : ListeAnimal
-Joueur -> GestionZooNourir: ChoisitAnimalNourir
+Joueur --> GestionZooNourir: demandeNourirAnimal
+GestionZooNourir --> Joueur : NourirAnimal
+Joueur -> GestionZooNourir: NourirAnimal
 GestionZooNourir ->  GestionZooNourir: VerificationSiEstvivantAnimal
-GestionZooNourir -->  Joueur: demandeInformationAnimal
-Joueur -> GestionZooNourir: sasitInformationAnimalChoisit
+
 GestionZooNourir ->  GestionZooNourir: EnregistreAnimalNourrit
 
-Joueur -> GestionZooNourir: demandeListeAnimalActuel
+Joueur -> GestionZooNourir: demandeListeInformationAnimal
 
-GestionZooNourir -->  Joueur: afficheListe
+GestionZooNourir -->  Joueur: afficheListeAnimaux
 
 	
 	

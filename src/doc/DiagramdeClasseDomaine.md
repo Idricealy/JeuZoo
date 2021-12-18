@@ -3,7 +3,7 @@
 class Zoo {
 -Nom : String 
 -<ArrayList> Animal lesAnimaux
--<ArrayList> Cage lesCages
+
 
 }
 abstract class Animal{
@@ -11,6 +11,7 @@ abstract class Animal{
 -Age : int 
 -Poids : double
 -{static} nbr_Animal : int
+-<ArrayList> Cage lesCages
 +manger()
 +viellir()
 }
@@ -46,12 +47,15 @@ Animal <|-- Lion
 Animal <|-- Singe
 Animal <|-- Tigre
 Animal <|-- Zebre
-Zoo o-- Animal
-Joueur -- Jeu
-Zoo o-- Cage
+Zoo "1..1" o-- "1..n" Animal
+
+Animal "1..1" o-- "1..1" Cage
 
 Joueur "1..1" -- "0..*" Visiteur
-Joueur "1..1" -- "0..*" Animal
+Joueur "1..1" -- "1..*" Animal
+
+Animal "1..*" -- "1..1" Jeu
+
 @enduml
 
 class Zoo

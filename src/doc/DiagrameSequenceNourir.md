@@ -1,8 +1,8 @@
 @startuml
 
-Joueur --> GestionZooNourir: demandeNourirAnimal
-GestionZooNourir --> Joueur : NourirAnimal
-Joueur -> GestionZooNourir: NourirAnimal
+GestionZooNourir--> Joueur: ProposeNourirAnimal
+Joueur -> GestionZooNourir : NourirAnimal
+
 GestionZooNourir ->  GestionZooNourir: VerificationSiEstvivantAnimal
 
 GestionZooNourir ->  GestionZooNourir: EnregistreAnimalNourrit
